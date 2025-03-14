@@ -8,7 +8,7 @@ version: '3.9'
 services:
 
   db:
-    image: postgres:16.2
+    image: postgres:17
     container_name: db_2sem
     mem_limit: 1536MB
     mem_reservation: 1024MB
